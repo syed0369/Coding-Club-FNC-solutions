@@ -4,8 +4,8 @@ Greedly select the diagonal which can accomodate the maximum number of chips, th
 <br>
 In the figure below, the green squares get filled first, then then black, then the black, followed by red and pink.
 This can be checked by checking parity of `count`.
-![](img.png)
-
+<br>
+![checkered board](img.png)
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
