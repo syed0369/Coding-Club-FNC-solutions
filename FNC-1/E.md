@@ -51,6 +51,6 @@ int main()
 ```
 
 ## Analysis
-Time Complexity: For each test case <i>O(nlog(A))</i>
+Time Complexity: For each test case <i>O(nlog(A))</i> where A is max element in `arr`.
 <br>
 Space Complexity: <i>O(n)</i>
