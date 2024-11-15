@@ -50,4 +50,7 @@ int main()
 
 ## Analysis
 Time Complexity: For each test case <i>O(n)</i>
+
+<br>
+
 Space Complexity: <i>O(1)</i>
