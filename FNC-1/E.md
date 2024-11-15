@@ -1,6 +1,11 @@
 ## Problem Statement
 [E - Cat, Fox and the Lonely Array](https://codeforces.com/contest/1973/problem/B)
 
+## Solution
+To ensure that each segment has the same OR value, there should be atleast one number with a particular bit set, the maximum distance of two such numbers with a particular bit can be found which will be the answer. `bits` array can be used to store the most recent position of the i<sup>th</sup> bit set.
+<br>
+Considering a case where 0 might appear at end of array, the ORed vaue of all elements is placed at end to ensure that the 0s are also considered in calculating the max_length.
+
 ## Code
 ```cpp
 #include <bits/stdc++.h>
@@ -44,3 +49,8 @@ int main()
 }
 
 ```
+
+## Analysis
+Time Complexity: For each test case <i>O(nlog(A))</i>
+<br>
+Space Complexity: <i>O(n)</i>
