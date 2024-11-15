@@ -1,7 +1,10 @@
-Problem Statement: [C - Fixed Points](https://codeforces.com/problemset/problem/347/B)
-<br>
+## Problem Statement
+[C - Fixed Points](https://codeforces.com/problemset/problem/347/B)
+
+## Solution
 The permutation should be sorted in ascending order. Check if a cycle of length 2 isformed between any two numbers, if yes we can swap these two and increase `count` by 2 else we can only adjust 1 element's position so increase by 1.
-<br>
+
+## Code
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -37,3 +40,8 @@ int main()
     return 0;
 }
 ```
+
+## Analysis
+Time Complexity: For each test case <i>O(n)</i>
+<br>
+Space COmplexity: <i>O(n)</i>
