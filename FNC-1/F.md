@@ -2,7 +2,7 @@
 [F - Sum of Goodness](https://www.codechef.com/problems/SEQGOODNESS?tab=statement)
 
 ## Solution
-Find the number of times each number contributes to the goodness. Let `i` be the position of the muber in the sorted array, then only if atleast `i - 1` elements are there before `arr[i]`, it contributes to the goodness. The numbers in front can be arrange in <i><sup>i</sup>C<sub>arr[i] - 1</sub></i> ways, the numbers after `i` can be selected or not i.e. <i>2<sup>n - i - i</sup></i> number of ways.
+Find the number of times each number contributes to the goodness. Let `i` be the position of the muber in the sorted array, then only if atleast `arr[i] - 1` elements are there before `i`, it contributes to the goodness. The numbers in front can be arrange in <i><sup>i</sup>C<sub>arr[i] - 1</sub></i> ways, the numbers after `i` can be selected or not i.e. <i>2<sup>n - i - i</sup></i> number of ways.
 
 ## Code
 ```cpp
