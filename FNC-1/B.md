@@ -6,7 +6,7 @@ Since it should be divisible by 33 and 66, finding the lcm, we get 66 == 2 * 3 *
 <br>
 + Divisibility by 2: should end with even. Only possible in this case is 6.
 + Divisibility by 3: Always divisible as any combination of 3 and 6 gives a sum divisible by 3
-+ Divisibility by 11: for even length numbers, it should end with 66 and prepended by `n - 2` number of 3s, for odd length numbers, it should end with 36366 prepended by `n - 5` 3s.
++ Divisibility by 11: alternate difference and sum of digits should be a multiple of 11. For even numbers it can be of the form (33)*66. For odd numbers, `n = 3` there is no number possible ending with 6. For `n = 5` it can be of the form 36366 as 3 - 6 + 3 - 6 + 6 = 0. Hence for odd numbers it will be of the form (33)*36366.
 
 ## Code
 ```cpp
