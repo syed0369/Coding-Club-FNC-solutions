@@ -68,3 +68,8 @@ int main() {
 	return 0;
 }
 ```
+
+## Analysis
+Time Complexity: For each test case ~ <i>O(nlog(n))</i>
+<br>
+Space Complexity: <i>O(n)</i>
