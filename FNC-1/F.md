@@ -1,4 +1,4 @@
-## Proble Statement
+## Problem Statement
 [F - Sum of Goodness](https://www.codechef.com/problems/SEQGOODNESS?tab=statement)
 
 ## Solution
